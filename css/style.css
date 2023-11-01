@@ -195,7 +195,7 @@ nav a {
   /* display: flex; */
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
-  /* justify-content: flex-end; */
+  justify-content: flex-end;
   padding: 20px 0 0;
 }
 
@@ -342,7 +342,6 @@ a.icon {
 
 .circle.large.dark:before {
   border-block: 20px 0 20px 31.0px;
-  border-sizing:  ; 
   content: '';
   width: 0;
   height: 0;
@@ -457,12 +456,12 @@ a.icon {
 .header-three {
   background: url('../images/Headers/header-three-bg.jpg') no-repeat;
 }
-.header-four {
+/* .header-four {
   background: url('../images/Headers/header-four-bg.jpg') no-repeat;
 }
 .header-five {
   background: url('../images/Headers/header-one.png') no-repeat;
-}
+} */
 
 /* Portfolio section styles
 /* ========================================== */
